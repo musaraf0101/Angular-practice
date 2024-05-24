@@ -1,0 +1,33 @@
+<app-navbar></app-navbar>
+<div class="wrapper" id="sign">
+    <form action="Validation.php" method="post">
+      <h1><img src="C:\Users\mossarraf\Desktop\ip\logo.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">&nbsp;&nbsp;&nbsp;Sign In </h1>
+      <br>
+      <div class="input-box">
+        <input type="text" placeholder="First Name " id="Firstname" name="Firstname" class="rounded">
+        <i class='bx bx-user'></i>
+      </div>
+      <br>
+      <div class="input-box">
+        <input type="text" placeholder="Last Name " id="Lastname" name="Lastname" required class="rounded">
+        <i class='bx bx-user'></i>
+      </div>
+      <br>
+     <div class="input-box">
+        <input type="password" placeholder="password" id="password" name="password" minlength="8" class="rounded">
+        <i class='bx bx-lock-alt'></i>
+      </div>
+      <br>
+      <div class="input-box">
+        <input type="password" placeholder=" Confirm password" id="Confirmpassword" name="Confirmpassword" required minlength="8" class="rounded">
+        <i class='bx bx-lock-alt'></i>
+      </div>
+      <br>
+      <div class="input-box">
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number" id="phonenumber" name="phonenumber" required maxlength="10" class="rounded">
+        <i class='bx bxs-phone-call'></i>
+      </div>
+      <br>
+      
+      
+      <button type="submit" class="btn btn-outline-primary  mt-3"  >Sign in</button>
